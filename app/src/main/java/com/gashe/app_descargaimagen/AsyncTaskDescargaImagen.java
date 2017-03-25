@@ -29,7 +29,7 @@ public class AsyncTaskDescargaImagen extends AsyncTask<String, Void, Bitmap[]> {
     protected Bitmap[] doInBackground(String... url) {
 
         //VARARGS STRING ... string -> número indeterminado de parametro, éste un array de string
-        Bitmap[] bitmap = new Bitmap[2];
+        Bitmap[] bitmap = new Bitmap[url.length];
         String url_image = null;
         URL object_url = null;
         HttpURLConnection http = null;
