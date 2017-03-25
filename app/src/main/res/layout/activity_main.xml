@@ -19,7 +19,14 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/myImage"
+        android:layout_height="200dp"
+        android:id="@+id/myImage0"
         android:layout_below="@id/getImage"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/myImage1"
+        android:layout_below="@id/myImage0"/>
+
 </RelativeLayout>
